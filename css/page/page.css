@@ -1,0 +1,200 @@
+/**
+ * @名称: page
+ * @描述: workbench翻页样式
+ */
+ 
+ .page_field {
+	width: auto;
+	height: 32px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	clear: both;
+}
+.total_page_info {
+	width: 132px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	float: left;
+	font-size: 14px;
+	margin-right: 8px;
+	cursor: pointer;
+	color: #7e7e7e;
+	background: url(../../img/page/page_cell.png) no-repeat;
+}
+.page_blue_style{
+	color: #2789ce;
+	display: inline-block;
+	padding: 0 2px;
+}
+.first_page {
+	width: 38px;
+	height: 32px;
+	float: left;
+	cursor: pointer;
+	background: url(../../img/page/first_page_icon.png) no-repeat;
+}
+.previous_page {
+	width: 35px;
+	height: 32px;
+	float: left;
+	cursor: pointer;
+	background: url(../../img/page/previous_page.png) no-repeat;
+}
+.num_page_selected {
+	width: 35px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	float: left;
+	cursor: none;
+	font-size: 14px;
+	color: #FFFFFF;
+	background: url(../../img/page/page_selected_pg.png) no-repeat;
+}
+.num_page {
+	width: 35px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	float: left;
+	cursor: pointer;
+	font-size: 14px;
+	color: #7e7e7e;
+	background: url(../../img/page/page_bg.png) no-repeat;
+}
+.next_page {
+	width: 35px;
+	height: 32px;
+	float: left;
+	cursor: pointer;
+	background: url(../../img/page/next_page.png) no-repeat;
+}
+.last_page {
+	width: 38px;
+	height: 32px;
+	float: left;
+	cursor: pointer;
+	background: url(../../img/page/last_page_icon.png) no-repeat;
+}
+.page_jump_cell {
+	width: 140px;
+	height: 32px;
+	margin-left: 10px;
+	line-height: 32px;
+	text-align: center;
+	float: left;
+	font-size: 14px;
+	color: #7e7e7e;
+	cursor: pointer;
+	background: url(../../img/page/page_cell.png) no-repeat;
+}
+.page_jump_cell span {
+	float: left;
+}
+.page_input {
+	width: 47px;
+	height: 23px;
+	border: 0px;
+	text-align: center;
+	float: left;
+	line-height: 23px;
+	margin: 9px 0px;
+	background: url(../../img/page/page_input.png) no-repeat;
+}
+
+
+/* ************************************************************************** */
+.page-content{
+	width: 630px;
+	margin: 0 auto;
+	height: 35px;
+	clear: both;
+	line-height: 30px;
+	color: #333333;
+	font-size: 14px;
+/* 	padding: 20px 0; */
+}
+.col-rpt-content .page-content {
+	clear: right;
+}
+
+.page-content .page-content-total{
+	width: 138px;
+	height: 38px;
+/* 	background: url(../../img/page/page_cell.png) no-repeat 0 0; */
+	float: left;
+	text-align: center;
+}
+.page-content .page-content-first{
+	width: 39px;
+	height: 32px;
+	background: url(../../img/page/first_page_icon.png) no-repeat 0 0;
+	float: left;
+}
+.page-content .page-content-previous{
+	width: 43px;
+	height: 32px;
+	background: url(../../img/page/previous_page.png) no-repeat 0 0;
+	float: left;
+}
+.page-content .page-content-number{
+	width: 40px;
+	height: 32px;
+	background: url(../../img/page/page_bg.png) no-repeat 0 0;
+	float: left;
+	text-align: center;
+	overflow: hidden; 
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+}
+.page-content .page-content-next{
+	width: 43px;
+	height: 32px;
+	background: url(../../img/page/next_page.png) no-repeat 0 0;
+	float: left;
+}
+.page-content .page-content-end{
+	width: 39px;
+	height: 32px;
+	background: url(../../img/page/last_page_icon.png) no-repeat 0 0;
+	float: left;
+}
+.page-content .page-content-jump{
+	width: 138px;
+	height: 38px;
+/* 	background: url(../../img/page/page_cell.png) no-repeat 0 0; */
+	float: left;
+	text-align: center;
+}
+.page-content .cursor{
+	cursor: pointer;
+}
+.page-content .current{
+	background: url(../../img/page/page_selected_pg.png) no-repeat 0 0;
+	color: #fff;
+}
+.page-content .page-content-jump .jumpinput{
+	width: 34px;
+	height: 32px;
+	border: none;
+	color:#333;
+	text-align: center;
+	background: url(../../img/page/page_input.png) no-repeat 0 0;
+	vertical-align: middle;
+}
+.page-content .page-content-jump .jumpspan{
+	width: 47px;
+	height: 23px;
+	display: inline-block;
+	_margin-top: 6px;
+}
+.page-content-total span{
+	color: #2789ce;
+	display: inline-block;
+	padding: 0 2px;
+}
+.easy-page-content{
+	width: 325px;
+}
